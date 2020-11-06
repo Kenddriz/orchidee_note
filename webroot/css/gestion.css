@@ -1,0 +1,40 @@
+
+#ajout_Classique,.flex-inline, .sidenav,#compte_actif {
+	display: flex;
+
+}
+#ajout_Classique,.flex-inline, #compte_actif {
+	flex-direction: flex-start;
+	justify-content: space-around;
+	margin-bottom: 1vw;
+}
+
+
+.flex-inline {
+	height: 4vw;
+	align-items: center;
+}
+.sidenav {
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	width: 7vw;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	/*transition: 1s;*/
+
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+}
+
